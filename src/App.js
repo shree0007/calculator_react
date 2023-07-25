@@ -1,10 +1,12 @@
-
+import Button from './components/Button'
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Calculator</h1>
+      <div className='calc-wrapper'>
+        <Button />
+      </div>
     </div>
   );
 }
