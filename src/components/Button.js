@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const Button = () => {
+const Button = ({ symbol }) => {
     return (
         <div className='button-wrapper'>
-            TEST
+            {symbol}
         </div>
     );
 };
