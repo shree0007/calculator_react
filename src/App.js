@@ -1,11 +1,12 @@
-import Button from './components/Button'
+import Button from './components/Button';
+import Input from './components/Input';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
       <div className='calc-wrapper'>
-
+        <Input />
         <div className='row'>
           <Button symbol="7" />
           <Button symbol="8" />
