@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-const Button = ({ symbol }) => {
+const Button = ({ symbol, color }) => {
     return (
-        <div className='button-wrapper'>
+        <div className='button-wrapper' style={{ backgroundColor: color }}>
             {symbol}
         </div>
     );
