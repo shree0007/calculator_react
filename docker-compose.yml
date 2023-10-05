@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/calculator-app
+    ports:
+      - 3015:3000
+    image: app:calculator-app
+    container_name: calculator_container
+    command: npm start
+
+       
